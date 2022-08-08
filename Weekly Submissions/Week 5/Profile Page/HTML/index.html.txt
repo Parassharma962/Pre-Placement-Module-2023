@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My profile</title>
+    <link rel="stylesheet" href="../CSS/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&family=Bebas+Neue&family=Clicker+Script&family=Comfortaa&family=Dongle:wght@300&family=Hind+Madurai:wght@300&family=Montserrat:ital,wght@0,200;1,400&family=Noto+Sans+Mono:wght@300&family=Nunito:wght@200&family=Oleo+Script&family=PT+Sans+Narrow&family=Roboto:wght@100;300;400&family=Signika+Negative:wght@300&family=Square+Peg&family=Varela+Round&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <!-- navbar -->
+
+    <nav class="navbar">
+      <ul class="nav">
+        <li class="item"><a href="#" class="item">Home</a></li>
+        <li class="item"><a href="#" class="item">About</a></li>
+        <li class="item"><a href="#" class="item">Portfolio</a></li>
+        <li class="item"><a href="#" class="item">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- About section -->
+
+    <section class="section">
+        <div class="About">
+            <div class="container">
+                <img src="../Images/img.jpeg" alt="profile image" class="profile">
+            </div>
+            <div class="Bio">
+                <p>
+                  Hey guys I am an Engineering student currently in final year.
+              </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- projects sections -->
+
+    <section class="projects">
+      <div class="container">
+        <div class="heading">
+          <p>PERSONAL PROJECTS</p>
+        </div>
+        <div class="layout">
+          <div class="cards">
+            <div class="title">
+              <span class="span">D</span>igital clock
+            </div>
+            <div class="description">
+              This is a simple digital clock which I developed using HTML, CSS ans JavaScript
+            </div>
+          </div>
+          <div class="cards">
+            <div class="title">
+              <span class="span">T</span>o do list
+            </div>
+            <div class="description">
+             This is a simple To do list developed using CSS, HTML ans JavaScript
+            </div>
+          </div>
+          <div class="cards">
+            <div class="title">
+              <span class="span">G</span>ym memebership form
+            </div>
+            <div class="description">
+              This is a simple Gym membership form using HTML ans CSS
+            </div>
+          </div>
+          <div class="cards">
+            <div class="title">
+              <span class="span">C</span>alculator
+            </div>
+            <div class="description">
+              This is a simple Calculator which I developed using HTML, CSS and JavaScript
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer section -->
+
+    <footer class="foot">
+      <div class="Container">
+        <div class="contacts">
+          <div class="links">
+            <ul>
+              <li class="items"><a href="ashishkumar49251@gmail.com" target="_blank">E-mail</a></li>
+              <li class="items"><a href="https://www.linkedin.com/in/ashish-kumar-5ba4a8195/" target="_blank">Linked in</a></li>
+              <li class="items"><a href="#">Facebook</a></li>
+              <li class="items"><a href="#">Twitter</a></li>
+              <li class="items"><a href="https://github.com/whyashishkumar" target="_blank">Github</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

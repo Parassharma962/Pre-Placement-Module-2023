@@ -1,0 +1,163 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+body{
+    background-image: url(../Images/watercolor-paint-background-holi-festival.jpg);
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    background-color: #161E35;
+    border-bottom: #FFFFFF;
+}
+.navbar .nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 10px;
+    padding: 5px;
+}
+.navbar .nav .item{
+    list-style: none;
+    padding: 5px 10px;
+}
+.navbar .nav .item a{
+    text-decoration: none;
+    color: #FFFFFF;
+    margin: 2px 25px;
+    padding: 5px 25px;
+}
+.navbar .nav .item a:hover{
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    color: #161E35;
+}
+.section{
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+}
+.section .About{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 15px;
+    border-radius: 12px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    -webkit-backdrop-filter: blur(120px);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.section .About .container{
+    display: flex;
+    align-items: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+    margin: 0px 50px;
+    border-radius: 12px;
+}
+.section .About .container .profile{
+    display: block;
+    width: 300px;
+    border-radius: 12px;
+}
+.Bio{
+    color: white;
+    width: 50%;
+    margin: 0px 50px;
+}
+.Bio p{
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+.projects{
+    padding: 15px;
+}
+.projects .container{
+    margin: auto;
+}
+.projects .container .heading{
+    margin: 10px;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-family: 'Varela Round', sans-serif;
+    border-radius: 20px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    -webkit-backdrop-filter: blur(120px);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.projects .container .layout{
+    padding: 20px 30px;
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    grid-template-rows: repeat(2,auto);
+}
+.projects .container .layout .cards{
+    margin: 40px 60px;
+    padding: 20px 40px;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    border-radius: 20px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    -webkit-backdrop-filter: blur(120px);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.projects .container .layout .cards .title{
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 5px;
+    font-size: 25px;
+}
+.projects .container .layout .cards .title .span{
+    color: white;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.foot{
+    padding: 30px 20px;
+    background-color: #161E35;
+    color: #FFFFFF;
+    border-top: 2px solid white;
+}
+.foot .Container{
+    margin: 20px 20px;
+    padding: 5px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot .Container .contacts{
+    padding: 7px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.foot .Container .contacts .links{
+    padding: 10px;
+}
+.foot .Container .contacts .links ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.foot .Container .contacts .links ul li{
+    margin: 5px 20px;
+    list-style: none;
+}
+.foot .Container .contacts .links ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
